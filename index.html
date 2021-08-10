@@ -1,800 +1,548 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	
-	<meta charset="utf-8">
-	<title>White | responsive bootstrap3 html5 one page template</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="author" content="">
-	
-	<link rel="shortcut icon" href="images/favicon.ico">
+  <head>
+    <!-- 
+    More Templates Visit ==> Free-Template.co
+    -->
+    <title>Exclusivity - Free Bootstrap 4 Template</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Free Template by Free-Template.co" />
+    <meta name="keywords" content="free bootstrap 4, free bootstrap 4 template, free website templates, free html5, free template, free website template, html5, css3, mobile first, responsive" />
+    <meta name="author" content="Free-Template.co" />
     
-	<!-- CSS -->
-	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-	<link href="css/flexslider.css" rel="stylesheet" type="text/css" />
-	<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
-	<link href="css/animate.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="css/owl.carousel.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
     
-	<!-- FONTS -->
-	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500italic,700,500,700italic,900,900italic' rel='stylesheet' type='text/css'>
-	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">	
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body data-spy="scroll" data-target="#ftco-navbar" data-offset="200">
     
-	<!-- SCRIPTS -->
-	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-    <!--[if IE]><html class="ie" lang="en"> <![endif]-->
-	
-	<script src="js/jquery.min.js" type="text/javascript"></script>
-	<script src="js/bootstrap.min.js" type="text/javascript"></script>
-	<script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
-	<script src="js/jquery.nicescroll.min.js" type="text/javascript"></script>
-	<script src="js/superfish.min.js" type="text/javascript"></script>
-	<script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
-	<script src="js/owl.carousel.js" type="text/javascript"></script>
-	<script src="js/jquery.mb.YTPlayer.js" type="text/javascript"></script>
-	<script src="js/animate.js" type="text/javascript"></script>
-	<script src="js/jquery.BlackAndWhite.js"></script>
-	<script src="js/myscript.js" type="text/javascript"></script>
-	<script>
-		
-		//PrettyPhoto
-		jQuery(document).ready(function() {
-			$("a[rel^='prettyPhoto']").prettyPhoto();
-		});
-		
-		//BlackAndWhite
-		$(window).load(function(){
-			$('.client_img').BlackAndWhite({
-				hoverEffect : true, // default true
-				// set the path to BnWWorker.js for a superfast implementation
-				webworkerPath : false,
-				// for the images with a fluid width and height 
-				responsive:true,
-				// to invert the hover effect
-				invertHoverEffect: false,
-				// this option works only on the modern browsers ( on IE lower than 9 it remains always 1)
-				intensity:1,
-				speed: { //this property could also be just speed: value for both fadeIn and fadeOut
-					fadeIn: 300, // 200ms for fadeIn animations
-					fadeOut: 300 // 800ms for fadeOut animations
-				},
-				onImageReady:function(img) {
-					// this callback gets executed anytime an image is converted
-				}
-			});
-		});
-		
-	</script>
-	
-</head>
-<body>
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Exclusivity</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="oi oi-menu"></span> Menu
+        </button>
 
-<!-- PRELOADER -->
-<img id="preloader" src="images/preloader.gif" alt="" />
-<!-- //PRELOADER -->
-<div class="preloader_hide">
+        <div class="collapse navbar-collapse" id="ftco-nav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active"><a href="#section-home" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#section-features" class="nav-link">Features</a></li>
+            <li class="nav-item"><a href="#section-services" class="nav-link">Services</a></li>
+            <li class="nav-item"><a href="#section-pricing" class="nav-link">Pricing</a></li>
+            <li class="nav-item"><a href="#section-about" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#section-contact" class="nav-link">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- END nav -->
 
-	<!-- PAGE -->
-	<div id="page">
-	
-		<!-- HEADER -->
-		<header>
-			
-			<!-- MENU BLOCK -->
-			<div class="menu_block">
-			
-				<!-- CONTAINER -->
-				<div class="container clearfix">
-					
-					<!-- LOGO -->
-					<div class="logo pull-left">
-						<a href="index.html" ><span class="b1">w</span><span class="b2">h</span><span class="b3">i</span><span class="b4">t</span><span class="b5">e</span></a>
-					</div><!-- //LOGO -->
-					
-					<!-- SEARCH FORM -->
-					<div id="search-form" class="pull-right">
-						<form method="get" action="#">
-							<input type="text" name="Search" value="Search" onFocus="if (this.value == 'Search') this.value = '';" onBlur="if (this.value == '') this.value = 'Search';" />
-						</form>
-					</div><!-- SEARCH FORM -->
-					
-					<!-- MENU -->
-					<div class="pull-right">
-						<nav class="navmenu center">
-							<ul>
-								<li class="first active scroll_btn"><a href="#home" >Home</a></li>
-								<li class="scroll_btn"><a href="#about" >About Us</a></li>
-								<li class="scroll_btn"><a href="#projects" >Projects</a></li>
-								<li class="scroll_btn"><a href="#team" >Team</a></li>
-								<li class="scroll_btn"><a href="#news" >News</a></li>
-								<li class="scroll_btn last"><a href="#contacts" >Contacts</a></li>
-								<li class="sub-menu">
-									<a href="javascript:void(0);" >Pages</a>
-									<ul>
-										<li><a href="blog.html" >Blog</a></li>
-										<li><a href="blog-post.html" >Blog Post</a></li>
-										<li><a href="portfolio-post.html" >Portfolio Single Work</a></li>
-									</ul>
-								</li>
-							</ul>
-						</nav>
-					</div><!-- //MENU -->
-				</div><!-- //MENU BLOCK -->
-			</div><!-- //CONTAINER -->
-		</header><!-- //HEADER -->
-		
-		
-		<!-- HOME -->
-		<section id="home" class="padbot0">
-				
-			<!-- TOP SLIDER -->
-			<div class="flexslider top_slider">
-				<ul class="slides">
-					<li class="slide1">
-						<div class="flex_caption1">
-							<p class="title1 captionDelay2 FromTop">Creative</p>
-							<p class="title2 captionDelay4 FromTop">White</p>
-							<p class="title3 captionDelay6 FromTop">Templates</p>
-							<p class="title4 captionDelay7 FromBottom">The template is suitable for any company and the direction that appreciates style, purity and quality of the web site.</p>
-						</div>
-						<a class="slide_btn FromRight" href="javascript:void(0);" >Read More</a>
-					<li class="slide2">
-						<div class="flex_caption1">
-							<p class="title1 captionDelay6 FromLeft">Responsive</p>
-							<p class="title2 captionDelay4 FromLeft">Design</p>
-							<p class="title3 captionDelay2 FromLeft">Theme</p>
-							<p class="title4 captionDelay7 FromLeft">The template is suitable for any company and the direction that appreciates style, purity and quality of the web site.</p>
-						</div>
-						<a class="slide_btn FromRight" href="javascript:void(0);" >Read More</a>
-					</li>
-					<li class="slide3">
-						<div class="flex_caption1">
-							<p class="title1 captionDelay1 FromBottom">Amazing</p>
-							<p class="title2 captionDelay2 FromBottom">Video</p>
-							<p class="title3 captionDelay3 FromBottom">Background</p>
-							<p class="title4 captionDelay5 FromBottom">The template is suitable for any company and the direction that appreciates style, purity and quality of the web site.</p>
-						</div>
-						<a class="slide_btn FromRight" href="javascript:void(0);" >Read More</a>
-					</li>
-				</ul>
-				
-				<!-- VIDEO BACKGROUND -->
-              <a name="P2" class="player" id="P2" data-property="{videoURL:'2K5aHQjPwMs',containment:'.top_slider',autoPlay:true, mute:true, startAt:0, opacity:1}"></a>
-              <!-- //VIDEO BACKGROUND -->
-			</div><!-- //TOP SLIDER -->
-		</section><!-- //HOME -->
-		
-		
-		<!-- ABOUT -->
-		<section id="about">
-			
-			<!-- SERVICES -->
-			<div class="services_block padbot40" data-appear-top-offset="-200" data-animated="fadeInUp">
-				
-				<!-- CONTAINER -->
-				<div class="container">
-				
-					<!-- ROW -->
-					<div class="row">
-						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
-							<a class="services_item" href="javascript:void(0);" >
-								<p><b>Easy</b> Customize</p>
-								<span>Quality and very comfortable design, does not hurt the eyes and pleasant to use.</span>
-							</a>
-						</div>
-						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
-							<a class="services_item" href="javascript:void(0);" >
-								<p><b>Modern</b> Design</p>
-								<span>Quality and unique design that meets all the requirements and trends of modern web design.</span>
-							</a>
-						</div>
-						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
-							<a class="services_item" href="javascript:void(0);" >
-								<p><b>Responsive</b> Design</p>
-								<span>Design that will be equally beautifully displayed on all your devices, tablet, smartphone or computer.</span>
-							</a>
-						</div>
-						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
-							<a class="services_item" href="javascript:void(0);" >
-								<p><b>Free</b> Updates & Support</p>
-								<span>Hour and great support template. You can always ask a question and we will help you.</span>
-							</a>
-						</div>
-					</div><!-- //ROW -->
-				</div><!-- //CONTAINER -->
-			</div><!-- //SERVICES -->
-			
-			<!-- CLEAN CODE -->
-			<div class="cleancode_block">
-				
-				<!-- CONTAINER -->
-				<div class="container" data-appear-top-offset="-200" data-animated="fadeInUp">
-					
-					<!-- CASTOM TAB -->
-					<div id="myTabContent" class="tab-content">
-						<div class="tab-pane fade in active clearfix" id="tab1">
-							<p class="title"><b>Clean</b> Code</p>
-							<span>We tried to make very high-quality product and so our code is very neat and clean. Whatever anyone could improve and modify the template to your liking.</span>
-						</div>
-						<div class="tab-pane fade clearfix" id="tab2">
-							<p class="title"><b>Technical</b> Support</p>
-							<span>We tried to make very high-quality product and so our code is very neat and clean. Whatever anyone could improve and modify the template to your liking.</span>
-						</div>
-						<div class="tab-pane fade clearfix" id="tab3">
-							<p class="title"><b>Responsive</b></p>
-							<span>We tried to make very high-quality product and so our code is very neat and clean. Whatever anyone could improve and modify the template to your liking.</span>
-						</div>
-						<div class="tab-pane fade clearfix" id="tab4">
-							<p class="title"><b>Documentation</b></p>
-							<span>We tried to make very high-quality product and so our code is very neat and clean. Whatever anyone could improve and modify the template to your liking.</span>
-						</div>
-						<div class="tab-pane fade clearfix" id="tab5">
-							<p class="title"><b>Quality</b></p>
-							<span>We tried to make very high-quality product and so our code is very neat and clean. Whatever anyone could improve and modify the template to your liking.</span>
-						</div>
-						<div class="tab-pane fade clearfix" id="tab6">
-							<p class="title"><b>Support</b></p>
-							<span>We tried to make very high-quality product and so our code is very neat and clean. Whatever anyone could improve and modify the template to your liking.</span>
-						</div>
-					</div>
-					<ul id="myTab" class="nav nav-tabs">
-						<li class="active"><a class="i1" href="#tab1" data-toggle="tab" ><i></i><span>Clean Code</span></a></li>
-						<li><a class="i2" href="#tab2" data-toggle="tab" ><i></i><span>Support</span></a></li>
-						<li><a class="i3" href="#tab3" data-toggle="tab" ><i></i><span>Responsive</span></a></li>
-						<li><a class="i4" href="#tab4" data-toggle="tab" ><i></i><span>Documentation</span></a></li>
-						<li><a class="i5" href="#tab5" data-toggle="tab" ><i></i><span>Quality</span></a></li>
-						<li><a class="i6" href="#tab6" data-toggle="tab" ><i></i><span>Support</span></a></li>
-					</ul><!-- CASTOM TAB -->
-				</div><!-- //CONTAINER -->
-			</div><!-- //CLEAN CODE -->
-			
-			<!-- MULTI PURPOSE -->
-			<div class="purpose_block">
-				
-				<!-- CONTAINER -->
-				<div class="container">
-					
-					<!-- ROW -->
-					<div class="row">
-					
-						<div class="col-lg-7 col-md-7 col-sm-7" data-appear-top-offset="-200" data-animated="fadeInLeft">
-							<h2><b>Multi-purpose</b> WordPress Theme</h2>
-							<p>We tried to make very high-quality product and so our code is very neat and clean. Whatever anyone could improve and modify the template to your liking.</p>
-							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-							<a class="btn btn-active" href="javascript:void(0);" ><span data-hover="Yes I want it">Byu This theme</span></a>
-							<a class="btn" href="javascript:void(0);" >View more templates</a>
-						</div>
-						
-						<div class="col-lg-5 col-md-5 col-sm-5 ipad_img_in" data-appear-top-offset="-200" data-animated="fadeInRight">
-							<img class="ipad_img1" src="images/img1.png" alt="" />
-						</div>
-					</div><!-- //ROW -->
-				</div><!-- //CONTAINER -->
-			</div><!-- //MULTI PURPOSE -->
-		</section><!-- //ABOUT -->
-		
-		
-		<!-- PROJECTS -->
-		<section id="projects" class="padbot20">
-		
-			<!-- CONTAINER -->
-			<div class="container">
-				<h2><b>Featured</b> Works</h2>
-			</div><!-- //CONTAINER -->
-			
-				
-			<div class="projects-wrapper" data-appear-top-offset="-200" data-animated="fadeInUp">
-				<!-- PROJECTS SLIDER -->
-				<div class="owl-demo owl-carousel projects_slider">
-					
-					<!-- work1 -->
-					<div class="item">
-						<div class="work_item">
-							<div class="work_img">
-								<img src="images/works/1.jpg" alt="" />
-								<a class="zoom" href="images/works/1.jpg" rel="prettyPhoto[portfolio1]" ></a>
-							</div>
-							<div class="work_description">
-								<div class="work_descr_cont">
-									<a href="portfolio-post.html" >Ginger Beast</a>
-									<span>17 March, 2041</span>
-								</div>
-							</div>
-						</div>
-					</div><!-- //work1 -->
-					
-					<!-- work2 -->
-					<div class="item">
-						<div class="work_item">
-							<div class="work_img">
-								<img src="images/works/2.jpg" alt="" />
-								<a class="zoom" href="images/works/2.jpg" rel="prettyPhoto[portfolio1]" ></a>
-							</div>
-							<div class="work_description">
-								<div class="work_descr_cont">
-									<a href="portfolio-post.html" >Ginger Beast</a>
-									<span>17 March, 2041</span>
-								</div>
-							</div>
-						</div>
-					</div><!-- //work2 -->
-					
-					<!-- work3 -->
-					<div class="item">
-						<div class="work_item">
-							<div class="work_img">
-								<img src="images/works/3.jpg" alt="" />
-								<a class="zoom" href="images/works/3.jpg" rel="prettyPhoto[portfolio1]" ></a>
-							</div>
-							<div class="work_description">
-								<div class="work_descr_cont">
-									<a href="portfolio-post.html" >Ginger Beast</a>
-									<span>17 March, 2041</span>
-								</div>
-							</div>
-						</div>
-					</div><!-- //work3 -->
-					
-					<!-- work4 -->
-					<div class="item">
-						<div class="work_item">
-							<div class="work_img">
-								<img src="images/works/4.jpg" alt="" />
-								<a class="zoom" href="images/works/4.jpg" rel="prettyPhoto[portfolio1]" ></a>
-							</div>
-							<div class="work_description">
-								<div class="work_descr_cont">
-									<a href="portfolio-post.html" >Ginger Beast</a>
-									<span>17 March, 2041</span>
-								</div>
-							</div>
-						</div>
-					</div><!-- //work4 -->
-					
-					<!-- work5 -->
-					<div class="item">
-						<div class="work_item">
-							<div class="work_img">
-								<img src="images/works/5.jpg" alt="" />
-								<a class="zoom" href="images/works/5.jpg" rel="prettyPhoto[portfolio1]" ></a>
-							</div>
-							<div class="work_description">
-								<div class="work_descr_cont">
-									<a href="portfolio-post.html" >Ginger Beast</a>
-									<span>17 March, 2041</span>
-								</div>
-							</div>
-						</div>
-					</div><!-- //work5 -->
-					
-					<!-- work6 -->
-					<div class="item">
-						<div class="work_item">
-							<div class="work_img">
-								<img src="images/works/6.jpg" alt="" />
-								<a class="zoom" href="images/works/6.jpg" rel="prettyPhoto[portfolio1]" ></a>
-							</div>
-							<div class="work_description">
-								<div class="work_descr_cont">
-									<a href="portfolio-post.html" >Ginger Beast</a>
-									<span>17 March, 2041</span>
-								</div>
-							</div>
-						</div>
-					</div><!-- //work6 -->
-					
-					<!-- work7 -->
-					<div class="item">
-						<div class="work_item">
-							<div class="work_img">
-								<img src="images/works/7.jpg" alt="" />
-								<a class="zoom" href="images/works/7.jpg" rel="prettyPhoto[portfolio1]" ></a>
-							</div>
-							<div class="work_description">
-								<div class="work_descr_cont">
-									<a href="portfolio-post.html" >Ginger Beast</a>
-									<span>17 March, 2041</span>
-								</div>
-							</div>
-						</div>
-					</div><!-- //work7 -->
-				</div><!-- //PROJECTS SLIDER -->
-			</div>
-			
-			
-			<!-- OUR CLIENTS -->
-			<div class="our_clients">
-			
-				<!-- CONTAINER -->
-				<div class="container" data-appear-top-offset="-200" data-animated="fadeInUp">
-					
-					<!-- ROW -->
-					<div class="row">
-						<div class="col-lg-2 col-md-2 col-sm-2 client_img">
-							<img src="images/clients/1.jpg" alt="" />
-						</div>
-						<div class="col-lg-2 col-md-2 col-sm-2 client_img">
-							<img src="images/clients/2.jpg" alt="" />
-						</div>
-						<div class="col-lg-2 col-md-2 col-sm-2 client_img">
-							<img src="images/clients/3.jpg" alt="" />
-						</div>
-						<div class="col-lg-2 col-md-2 col-sm-2 client_img">
-							<img src="images/clients/4.jpg" alt="" />
-						</div>
-						<div class="col-lg-2 col-md-2 col-sm-2 client_img">
-							<img src="images/clients/5.jpg" alt="" />
-						</div>
-						<div class="col-lg-2 col-md-2 col-sm-2 client_img">
-							<img src="images/clients/6.jpg" alt="" />
-						</div>
-					</div><!-- //ROW -->
-				</div><!-- CONTAINER -->
-			</div><!-- //OUR CLIENTS -->
-		</section><!-- //PROJECTS -->
-		
-		
-		<!-- TEAM -->
-		<section id="team">
-		
-			<!-- CONTAINER -->
-			<div class="container">
-				<h2><b>Our</b> Team</h2>
-				
-				<!-- ROW -->
-				<div class="row" data-appear-top-offset="-200" data-animated="fadeInUp">
-						
-					<!-- TEAM SLIDER -->
-					<div class="owl-demo owl-carousel team_slider">
-				
-						<!-- crewman1 -->
-						<div class="item">
-							<div class="crewman_item">
-								<div class="crewman">
-									<img src="images/team/1.jpg" alt="" />
-								</div>
-								<div class="crewman_descr center">
-									<div class="crewman_descr_cont">
-										<p>Sarah Brown</p>
-										<span>Director</span>
-									</div>
-								</div>
-								<div class="crewman_social">
-									<a href="javascript:void(0);" ><i class="fa fa-twitter"></i></a>
-									<a href="javascript:void(0);" ><i class="fa fa-facebook-square"></i></a>
-								</div>
-							</div>
-						</div><!-- crewman1 -->
-						
-						<!-- crewman2 -->
-						<div class="item">
-							<div class="crewman_item">
-								<div class="crewman">
-									<img src="images/team/2.jpg" alt="" />
-								</div>
-								<div class="crewman_descr center">
-									<div class="crewman_descr_cont">
-										<p>David Jones</p>
-										<span>Creative Director</span>
-									</div>
-								</div>
-								<div class="crewman_social">
-									<a href="javascript:void(0);" ><i class="fa fa-google-plus"></i></a>
-									<a href="javascript:void(0);" ><i class="fa fa-twitter"></i></a>
-									<a href="javascript:void(0);" ><i class="fa fa-facebook-square"></i></a>
-								</div>
-							</div>
-						</div><!-- crewman1 -->
-						
-						<!-- crewman3 -->
-						<div class="item">
-							<div class="crewman_item">
-								<div class="crewman">
-									<img src="images/team/3.jpg" alt="" />
-								</div>
-								<div class="crewman_descr center">
-									<div class="crewman_descr_cont">
-										<p>Kate Smith</p>
-										<span>Manager</span>
-									</div>
-								</div>
-								<div class="crewman_social">
-									<a href="javascript:void(0);" ><i class="fa fa-twitter"></i></a>
-									<a href="javascript:void(0);" ><i class="fa fa-facebook-square"></i></a>
-								</div>
-							</div>
-						</div><!-- crewman3 -->
-						
-						<!-- crewman4 -->
-						<div class="item">
-							<div class="crewman_item">
-								<div class="crewman">
-									<img src="images/team/4.jpg" alt="" />
-								</div>
-								<div class="crewman_descr center">
-									<div class="crewman_descr_cont">
-										<p>Peter Parker</p>
-										<span>Manager</span>
-									</div>
-								</div>
-								<div class="crewman_social">
-									<a href="javascript:void(0);" ><i class="fa fa-twitter"></i></a>
-									<a href="javascript:void(0);" ><i class="fa fa-facebook-square"></i></a>
-								</div>
-							</div>
-						</div><!-- crewman4 -->
-						
-						<!-- crewman5 -->
-						<div class="item">
-							<div class="crewman_item">
-								<div class="crewman">
-									<img src="images/team/5.jpg" alt="" />
-								</div>
-								<div class="crewman_descr center">
-									<div class="crewman_descr_cont">
-										<p>Jim Moss</p>
-										<span>Designer</span>
-									</div>
-								</div>
-								<div class="crewman_social">
-									<a href="javascript:void(0);" ><i class="fa fa-google-plus"></i></a>
-									<a href="javascript:void(0);" ><i class="fa fa-twitter"></i></a>
-									<a href="javascript:void(0);" ><i class="fa fa-facebook-square"></i></a>
-								</div>
-							</div>
-						</div><!-- crewman5 -->
-						
-						<!-- crewman6 -->
-						<div class="item">
-							<div class="crewman_item">
-								<div class="crewman">
-									<img src="images/team/6.jpg" alt="" />
-								</div>
-								<div class="crewman_descr center">
-									<div class="crewman_descr_cont">
-										<p>John Marks</p>
-										<span>Designer</span>
-									</div>
-								</div>
-								<div class="crewman_social">
-									<a href="javascript:void(0);" ><i class="fa fa-twitter"></i></a>
-									<a href="javascript:void(0);" ><i class="fa fa-facebook-square"></i></a>
-								</div>
-							</div>
-						</div><!-- crewman6 -->
-						
-						<!-- crewman7 -->
-						<div class="item">
-							<div class="crewman_item">
-								<div class="crewman">
-									<img src="images/team/7.jpg" alt="" />
-								</div>
-								<div class="crewman_descr center">
-									<div class="crewman_descr_cont">
-										<p>Joe Mades</p>
-										<span>Developer</span>
-									</div>
-								</div>
-								<div class="crewman_social">
-									<a href="javascript:void(0);" ><i class="fa fa-twitter"></i></a>
-									<a href="javascript:void(0);" ><i class="fa fa-facebook-square"></i></a>
-								</div>
-							</div>
-						</div><!-- crewman7 -->
-						
-						<!-- crewman8 -->
-						<div class="item">
-							<div class="crewman_item">
-								<div class="crewman">
-									<img src="images/team/8.jpg" alt="" />
-								</div>
-								<div class="crewman_descr center">
-									<div class="crewman_descr_cont">
-										<p>Julia Anderson</p>
-										<span>Developer</span>
-									</div>
-								</div>
-								<div class="crewman_social">
-									<a href="javascript:void(0);" ><i class="fa fa-google-plus"></i></a>
-									<a href="javascript:void(0);" ><i class="fa fa-twitter"></i></a>
-									<a href="javascript:void(0);" ><i class="fa fa-facebook-square"></i></a>
-								</div>
-							</div>
-						</div><!-- crewman8 -->
-					</div><!-- TEAM SLIDER -->
-				</div><!-- //ROW -->
-			</div><!-- //CONTAINER -->
-		</section><!-- //TEAM -->
-		
-		
-		<!-- NEWS -->
-		<section id="news">
-		
-			<!-- CONTAINER -->
-			<div class="container">
-				<h2><b>Clients</b> say about us</h2>
-				
-				<!-- TESTIMONIALS -->
-				<div class="testimonials" data-appear-top-offset="-200" data-animated="fadeInUp">
-						
-					<!-- TESTIMONIALS SLIDER -->
-					<div class="owl-demo owl-carousel testim_slider">
-						
-						<!-- TESTIMONIAL1 -->
-						<div class="item">
-							<div class="testim_content">“There is nothing scary in the darkness, if you encounter it face-to-face. The inevitable price we pay for our happiness is eternal fear to lose it. When you start thinking a lot about your past, it becomes your present and you can't see your future without it.”</div>
-							<div class="testim_author">—  Anna Balashova, <b>Philosopher</b></div>
-						</div><!-- TESTIMONIAL1 -->
-						
-						<!-- TESTIMONIAL2 -->
-						<div class="item">
-							<div class="testim_content">“There is nothing scary in the darkness, if you encounter it face-to-face. The inevitable price we pay for our happiness is eternal fear to lose it. When you start thinking a lot about your past, it becomes your present and you can't see your future without it.”</div>
-							<div class="testim_author">—  Anna Balashova, <b>Philosopher</b></div>
-						</div><!-- TESTIMONIAL2 -->
-						
-						<!-- TESTIMONIAL3 -->
-						<div class="item">
-							<div class="testim_content">“There is nothing scary in the darkness, if you encounter it face-to-face. The inevitable price we pay for our happiness is eternal fear to lose it. When you start thinking a lot about your past, it becomes your present and you can't see your future without it.”</div>
-							<div class="testim_author">—  Anna Balashova, <b>Philosopher</b></div>
-						</div><!-- TESTIMONIAL3 -->
-					</div><!-- TESTIMONIALS SLIDER -->
-				</div><!-- //TESTIMONIALS -->
-				
-				<!-- RECENT POSTS -->
-				<div class="row recent_posts" data-appear-top-offset="-200" data-animated="fadeInUp">
-					<div class="col-lg-4 col-md-4 col-sm-4 padbot30 post_item_block">
-						<div class="post_item">
-							<div class="post_item_img">
-								<img src="images/blog/1.jpg" alt="" />
-								<a class="link" href="blog-post.html" ></a>
-							</div>
-							<div class="post_item_content">
-								<a class="title" href="blog-post.html" >Inteligent Transitions In UX Design</a>
-								<ul class="post_item_inf">
-									<li><a href="javascript:void(0);" >Anna</a> |</li>
-									<li><a href="javascript:void(0);" >Photography</a> |</li>
-									<li><a href="javascript:void(0);" >10 Comments</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-4 padbot30 post_item_block">
-						<div class="post_item">
-							<div class="post_item_img">
-								<img src="images/blog/2.jpg" alt="" />
-								<a class="link" href="blog-post.html"></a>
-							</div>
-							<div class="post_item_content">
-								<a class="title" href="blog-post.html" >Recent trends in storytelling</a>
-								<ul class="post_item_inf">
-									<li><a href="javascript:void(0);" >Anna</a> |</li>
-									<li><a href="javascript:void(0);" >Web Design</a> |</li>
-									<li><a href="javascript:void(0);" >No comment</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-4 padbot30 post_item_block">
-						<div class="post_item">
-							<div class="post_item_img">
-								<img src="images/blog/3.jpg" alt="" />
-								<a class="link" href="blog-post.html"></a>
-							</div>
-							<div class="post_item_content">
-								<a class="title" href="blog-post.html" >Supernatural FX Showreel</a>
-								<ul class="post_item_inf">
-									<li><a href="javascript:void(0);" >Anna</a> |</li>
-									<li><a href="javascript:void(0);" >Creative</a> |</li>
-									<li><a href="javascript:void(0);" >3 Comments</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div><!-- RECENT POSTS -->
-			</div><!-- //CONTAINER -->
-		</section><!-- //NEWS -->
-	</div><!-- //PAGE -->
-	
-	<!-- CONTACTS -->
-	<section id="contacts">
-	</section><!-- //CONTACTS -->
-	
-	<!-- FOOTER -->
-	<footer>
-			
-		<!-- CONTAINER -->
-		<div class="container">
-			
-			<!-- ROW -->
-			<div class="row" data-appear-top-offset="-200" data-animated="fadeInUp">
-				
-				<div class="col-lg-4 col-md-4 col-sm-6 padbot30">
-					<h4><b>Featured</b> posts</h4>
-					<div class="recent_posts_small clearfix">
-						<div class="post_item_img_small">
-							<img src="images/blog/1.jpg" alt="" />
-						</div>
-						<div class="post_item_content_small">
-							<a class="title" href="blog.html" >As we have developed a unique layout template</a>
-							<ul class="post_item_inf_small">
-								<li>10 January 2014</li>
-							</ul>
-						</div>
-					</div>
-					<div class="recent_posts_small clearfix">
-						<div class="post_item_img_small">
-							<img src="images/blog/2.jpg" alt="" />
-						</div>
-						<div class="post_item_content_small">
-							<a class="title" href="blog.html" >How much is to develop a design for the game?</a>
-							<ul class="post_item_inf_small">
-								<li>14 January 2014</li>
-							</ul>
-						</div>
-					</div>
-					<div class="recent_posts_small clearfix">
-						<div class="post_item_img_small">
-							<img src="images/blog/3.jpg" alt="" />
-						</div>
-						<div class="post_item_content_small">
-							<a class="title" href="blog.html" >How to pump designer</a>
-							<ul class="post_item_inf_small">
-								<li>21 December 2013</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				
-				<div class="col-lg-4 col-md-4 col-sm-6 padbot30 foot_about_block">
-					<h4><b>About</b> us</h4>
-					<p>We value people over profits, quality over quantity, and keeping it real. As such, we deliver an unmatched working relationship with our clients.</p>
-					<p>Our team is intentionally small, eclectic, and skilled; with our in-house expertise, we provide sharp and</p>
-					<ul class="social">
-						<li><a href="javascript:void(0);" ><i class="fa fa-twitter"></i></a></li>
-						<li><a href="javascript:void(0);" ><i class="fa fa-facebook"></i></a></li>
-						<li><a href="javascript:void(0);" ><i class="fa fa-google-plus"></i></a></li>
-						<li><a href="javascript:void(0);" ><i class="fa fa-pinterest-square"></i></a></li>
-						<li><a href="javascript:void(0);" ><i class="map_show fa fa-map-marker"></i></a></li>
-					</ul>
-				</div>
-				
-				<div class="respond_clear"></div>
-				
-				<div class="col-lg-4 col-md-4 padbot30">
-					<h4><b>Contacts</b> Us</h4>
-					
-					<!-- CONTACT FORM -->
-					<div class="span9 contact_form">
-						<div id="note"></div>
-						<div id="fields">
-							<form id="contact-form-face" class="clearfix" action="#">
-								<input type="text" name="name" value="Name" onFocus="if (this.value == 'Name') this.value = '';" onBlur="if (this.value == '') this.value = 'Name';" />
-								<textarea name="message" onFocus="if (this.value == 'Message') this.value = '';" onBlur="if (this.value == '') this.value = 'Message';">Message</textarea>
-								<input class="contact_btn" type="submit" value="Send message" />
-							</form>
-						</div>
-					</div><!-- //CONTACT FORM -->
-				</div>
-			</div><!-- //ROW -->
-			<div class="row copyright">
-				<div class="col-lg-12 text-center">
-				
-				 <p>Crafted with <i class="fa fa-heart"></i>, <a href="http://designscrazed.org/" >Designscrazed</a></p>
-				</div>
-			
-			</div><!-- //ROW -->
-		</div><!-- //CONTAINER -->
-	</footer><!-- //FOOTER -->
-	
-	
-	<!-- MAP -->
-	<div id="map">
-		<a class="map_hide" href="javascript:void(0);" ><i class="fa fa-angle-right"></i><i class="fa fa-angle-left"></i></a>
-		<iframe src="http://maps.google.com/maps?f=q&amp;give%20a%20hand=s_q&amp;hl=en&amp;geocode=&amp;q=london&amp;sll=37.0625,-95.677068&amp;sspn=42.631141,90.263672&amp;ie=UTF8&amp;hq=&amp;hnear=London,+United+Kingdom&amp;ll=51.500141,-0.126257&amp;spn=0.026448,0.039396&amp;z=14&amp;output=embed" ></iframe>
-	</div><!-- //MAP -->
+    <section class="ftco-cover ftco-slant" style="background-image: url(images/bg_3.jpg);" id="section-home">
+      <div class="container">
+        <div class="row align-items-center justify-content-center text-center ftco-vh-100">
+          <div class="col-md-10">
+            <h1 class="ftco-heading ftco-animate">We Love One Page Template</h1>
+            <h2 class="h5 ftco-subheading mb-5 ftco-animate">A free template by <a href="#">Free-Template.co</a></h2>    
+            <p><a href="https://free-template.co/" target="_blank" class="btn btn-primary ftco-animate">Get Started</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
 
-</div>
-</body>
+    <section class="ftco-section bg-light  ftco-slant ftco-slant-white" id="section-features">
+      <div class="container">
+        
+        <div class="row">
+          <div class="col-md-12 text-center mb-5 ftco-animate">
+            <h2 class="text-uppercase ftco-uppercase">Our Awesome Features</h2>
+            <div class="row justify-content-center">
+              <div class="col-md-7">
+                <p class="lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="media d-block mb-4 text-center ftco-media p-md-5 p-4 ftco-animate">
+              <div class="ftco-icon mb-3"><span class="oi oi-thumb-up display-4 text-muted"></span></div>
+              <div class="media-body">
+                <h5 class="mt-0">Free Bootstrap 4</h5>
+                <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                <p class="mb-0"><a href="#" class="btn btn-primary btn-sm">Learn More</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="media d-block mb-4 text-center ftco-media p-md-5 p-4 ftco-animate">
+              <div class="ftco-icon mb-3"><span class="oi oi-bolt display-4 text-muted"></span></div>
+              <div class="media-body">
+                <h5 class="mt-0">Fast Loading</h5>
+                <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                <p class="mb-0"><a href="#" class="btn btn-primary btn-sm">Learn More</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="media d-block mb-4 text-center ftco-media p-md-5 p-4 ftco-animate">
+              <div class="ftco-icon mb-3"><span class="oi oi-person display-4 text-muted"></span></div>
+              <div class="media-body">
+                <h5 class="mt-0">Designer &amp; Developer</h5>
+                <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                <p class="mb-0"><a href="#" class="btn btn-primary btn-sm">Learn More</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="media d-block mb-4 text-center ftco-media p-md-5 p-4 ftco-animate">
+              <div class="ftco-icon mb-3"><span class="oi oi-code display-4 text-muted"></span></div>
+              <div class="media-body">
+                <h5 class="mt-0">Clean Code</h5>
+                <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                <p class="mb-0"><a href="#" class="btn btn-primary btn-sm">Learn More</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="media d-block mb-4 text-center ftco-media p-md-5 p-4 ftco-animate">
+              <div class="ftco-icon mb-3"><span class="oi oi-magnifying-glass display-4 text-muted"></span></div>
+              <div class="media-body">
+                <h5 class="mt-0">Search Engine</h5>
+                <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                <p class="mb-0"><a href="#" class="btn btn-primary btn-sm">Learn More</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="media d-block mb-4 text-center ftco-media p-md-5 p-4 ftco-animate">
+              <div class="ftco-icon mb-3"><span class="oi oi-phone display-4 text-muted"></span></div>
+              <div class="media-body">
+                <h5 class="mt-0">Fully Responsive</h5>
+                <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                <p class="mb-0"><a href="#" class="btn btn-primary btn-sm">Learn More</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END section -->
+
+    <section class="ftco-section ftco-slant" id="section-services">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center ftco-animate">
+            <h2 class="text-uppercase ftco-uppercase">Services</h2>
+            <div class="row justify-content-center mb-5">
+              <div class="col-md-7">
+                <p class="lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- END row -->
+        <div class="row">
+          <div class="col-lg-4 mb-5 ftco-animate">
+            <figure><img src="images/img_2.jpg" alt="Free Template by Free-Template.co" class="img-fluid"></figure>
+            <div class="p-3">
+              <h3 class="h4">Title of Service here</h3>
+              <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              <ul class="list-unstyled ftco-list-check text-left">
+                <li class="d-flex mb-2"><span class="oi oi-check mr-3 text-primary"></span> <span>Free template for designer and developers</span></li>
+                <li class="d-flex mb-2"><span class="oi oi-check mr-3 text-primary"></span> <span>Vokalia and consonantia blind texts</span></li>
+                <li class="d-flex mb-2"><span class="oi oi-check mr-3 text-primary"></span> <span>Behind the word mountains blind texts</span></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-5 ftco-animate">
+            <figure><img src="images/img_1.jpg" alt="Free Template by Free-Template.co" class="img-fluid"></figure>
+            <div class="p-3">
+              <h3 class="h4">Title of Service here</h3>
+              <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              <ul class="list-unstyled ftco-list-check text-left">
+                <li class="d-flex mb-2"><span class="oi oi-check mr-3 text-primary"></span> <span>Free template for designer and developers</span></li>
+                <li class="d-flex mb-2"><span class="oi oi-check mr-3 text-primary"></span> <span>Vokalia and consonantia blind texts</span></li>
+                <li class="d-flex mb-2"><span class="oi oi-check mr-3 text-primary"></span> <span>Behind the word mountains blind texts</span></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-5 ftco-animate">
+            <figure><img src="images/img_3.jpg" alt="Free Template by Free-Template.co" class="img-fluid"></figure>
+            <div class="p-3">
+              <h3 class="h4">Title of Service here</h3>
+              <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              <ul class="list-unstyled ftco-list-check text-left">
+                <li class="d-flex mb-2"><span class="oi oi-check mr-3 text-primary"></span> <span>Free template for designer and developers</span></li>
+                <li class="d-flex mb-2"><span class="oi oi-check mr-3 text-primary"></span> <span>Vokalia and consonantia blind texts</span></li>
+                <li class="d-flex mb-2"><span class="oi oi-check mr-3 text-primary"></span> <span>Behind the word mountains blind texts</span></li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="ftco-section bg-light ftco-slant ftco-slant-white" id="section-pricing">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center ftco-animate">
+            <h2 class="text-uppercase ftco-uppercase">Pricing</h2>
+            <div class="row justify-content-center mb-5">
+              <div class="col-md-7">
+                <p class="lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- END row -->
+        <div class="row">
+          <div class="col-md bg-white p-5 m-2 text-center mb-2 ftco-animate">
+            <div class="ftco-pricing">
+              <h2>Standard</h2>
+              <p class="ftco-price-per text-center"><sup>$</sup><strong>25</strong><span>/mo</span></p>
+              <ul class="list-unstyled mb-5">
+                <li>Far far away behind the word mountains</li>
+                <li>Even the all-powerful Pointing has no control</li>
+                <li>When she reached the first hills</li>
+              </ul>
+              <p><a href="#" class="btn btn-secondary btn-sm">Get Started</a></p>
+            </div>
+          </div>
+          <div class="col-md bg-white p-5 m-2 text-center mb-2 ftco-animate">
+            <div class="ftco-pricing">
+              <h2>Professional</h2>
+              <p class="ftco-price-per text-center"><sup>$</sup><strong>75</strong><span>/mo</span></p>
+              <ul class="list-unstyled mb-5">
+                <li>Far far away behind the word mountains</li>
+                <li>Even the all-powerful Pointing has no control</li>
+                <li>When she reached the first hills</li>
+              </ul>
+              <p><a href="#" class="btn btn-secondary btn-sm">Get Started</a></p>
+            </div>
+          </div>
+          <div class="w-100 clearfix d-xl-none"></div>
+          <div class="col-md bg-white  ftco-pricing-popular p-5 m-2 text-center mb-2 ftco-animate">
+            <span class="popular-text">Popular</span>
+            <div class="ftco-pricing">
+              <h2>Silver</h2>
+              <p class="ftco-price-per text-center"><sup>$</sup><strong class="text-primary">135</strong><span>/mo</span></p>
+              <ul class="list-unstyled mb-5">
+                <li>Far far away behind the word mountains</li>
+                <li>Even the all-powerful Pointing has no control</li>
+                <li>When she reached the first hills</li>
+              </ul>
+              <p><a href="#" class="btn btn-primary btn-sm">Get Started</a></p>
+            </div>
+          </div>
+          <div class="col-md bg-white p-5 m-2 text-center mb-2 ftco-animate">
+            <div class="ftco-pricing">
+              <h2>Platinum</h2>
+              <p class="ftco-price-per text-center"><sup>$</sup><strong>215</strong><span>/mo</span></p>
+              <ul class="list-unstyled mb-5">
+                <li>Far far away behind the word mountains</li>
+                <li>Even the all-powerful Pointing has no control</li>
+                <li>When she reached the first hills</li>
+              </ul>
+              <p><a href="#" class="btn btn-secondary btn-sm">Get Started</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ftco-section ftco-slant ftco-slant-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center ftco-animate">
+            <h2 class="text-uppercase ftco-uppercase">More Features</h2>
+            <div class="row justify-content-center mb-5">
+              <div class="col-md-7">
+                <p class="lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- END row -->
+        <div class="row">
+          <div class="col-md-12">
+            <div class="owl-carousel ftco-owl">
+              
+              <div class="item ftco-animate">
+                <div class="media d-block text-left ftco-media p-md-5 p-4">
+                  <div class="ftco-icon mb-3"><span class="oi oi-pencil display-4"></span></div>
+                  <div class="media-body">
+                    <h5 class="mt-0">Easy to Customize</h5>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item ftco-animate">
+                <div class="media d-block text-left ftco-media p-md-5 p-4">
+                  <div class="ftco-icon mb-3"><span class="oi oi-monitor display-4"></span></div>
+                  <div class="media-body">
+                    <h5 class="mt-0">Web Development</h5>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item ftco-animate">
+                <div class="media d-block text-left ftco-media p-md-5 p-4">
+                  <div class="ftco-icon mb-3"><span class="oi oi-location display-4"></span></div>
+                  <div class="media-body">
+                    <h5 class="mt-0">Free Bootstrap 4</h5>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item ftco-animate">
+                <div class="media d-block text-left ftco-media p-md-5 p-4">
+                  <div class="ftco-icon mb-3"><span class="oi oi-person display-4"></span></div>
+                  <div class="media-body">
+                    <h5 class="mt-0">For People Like You</h5>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <section class="ftco-section ftco-slant ftco-slant-light  bg-light ftco-slant ftco-slant-white" id="section-faq">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-12 text-center ftco-animate">
+            <h2 class="text-uppercase ftco-uppercase">FAQ</h2>
+            <div class="row justify-content-center mb-5">
+              <div class="col-md-7">
+                <p class="lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- END row -->
+        <div class="row">
+          <div class="col-md-6 mb-5 ftco-animate">
+            <h3 class="h5 mb-4">What is Exclusivity?</h3>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            <p class="mb-5"><a href="#">Learn More</a></p>
+          </div>
+          <div class="col-md-6 mb-5 ftco-animate">
+            <h3 class="h5 mb-4">Can I upgrade?</h3>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            <p class="mb-5"><a href="#">Learn More</a></p>
+          </div>
+          <div class="col-md-6 mb-5 ftco-animate">
+            <h3 class="h5 mb-4">Can I have more than 5 users?</h3>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            <p class="mb-5"><a href="#">Learn More</a></p>
+          </div>
+          <div class="col-md-6 mb-5 ftco-animate">
+            <h3 class="h5 mb-4">If I need support who do I contact?</h3>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            <p class="mb-5"><a href="#">Learn More</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ftco-section ftco-slant ftco-slant-light" id="section-about">
+      <div class="container">
+
+        <div class="row mb-5">
+          <div class="col-md-12 text-center ftco-animate">
+            <h2 class="text-uppercase ftco-uppercase">About Us</h2>
+            <div class="row justify-content-center mb-5">
+              <div class="col-md-7">
+                <p class="lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Feel free to send us an email to <a href="#">info@yourdomain.com</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- END row -->
+
+
+        <div class="row no-gutters align-items-center ftco-animate">
+          <div class="col-md-6 mb-md-0 mb-5">
+            <img src="images/bg_3.jpg" alt="Free Template by Free-Template.co" class="img-fluid">
+          </div>
+          <div class="col-md-6 p-md-5">
+            <h3 class="h3 mb-4">Far far away, behind the word mountains</h3>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            <p class="mb-5"><a href="#">Learn More</a></p>
+          </div>
+        </div>
+        <div class="row no-gutters align-items-center ftco-animate">
+          <div class="col-md-6 order-md-3 mb-md-0 mb-5">
+            <img src="images/bg_1.jpg" alt="Free Template by Free-Template.co" class="img-fluid">
+          </div>
+          <div class="col-md-6 p-md-5 order-md-1">
+            <h3 class="h3 mb-4">Far from the countries Vokalia and Consonantia</h3>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            <p class="mb-5"><a href="#">Learn More</a></p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <section class="ftco-section bg-light ftco-slant ftco-slant-white" id="section-counter">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-12 text-center ftco-animate">
+            <h2 class="text-uppercase ftco-uppercase">Fun Facts</h2>
+            <div class="row justify-content-center mb-5">
+              <div class="col-md-7">
+                <p class="lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- END row -->
+        <div class="row">
+          <div class="col-md ftco-animate">
+            <div class="ftco-counter text-center">
+              <span class="ftco-number" data-number="34146">0</span>
+              <span class="ftco-label">Lines of Codes</span>
+            </div>
+          </div>
+          <div class="col-md ftco-animate">
+            <div class="ftco-counter text-center">
+              <span class="ftco-number" data-number="1239">0</span>
+              <span class="ftco-label">Pizza Consume</span>
+            </div>
+          </div>
+          <div class="col-md ftco-animate">
+            <div class="ftco-counter text-center">
+              <span class="ftco-number" data-number="124">0</span>
+              <span class="ftco-label">Number of Clients</span>
+            </div>
+          </div>    
+        </div>
+      </div>
+      
+    </section>
+    <section class="ftco-section bg-white ftco-slant ftco-slant-dark" id="section-contact">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md pr-md-5 mb-5">
+            <form action="" method="post">
+              <div class="form-group">
+                <label for="name" class="sr-only">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+              </div>
+              <div class="form-group">
+                <label for="email" class="sr-only">Email</label>
+                <input type="text" class="form-control" id="email" placeholder="Enter your email">
+              </div>
+              <div class="form-group">
+                <label for="message" class="sr-only">Message</label>
+                <textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Write your message"></textarea>
+              </div>
+              <div class="form-group">
+                <input type="submit" class="btn btn-primary" value="Send Message">
+              </div>
+            </form>
+          </div>
+          <div class="col-md" id="map">
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="ftco-footer ftco-bg-dark">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-8">
+            <div class="row">
+              <div class="col-md">
+                <div class="ftco-footer-widget mb-4">
+                  <h2 class="ftco-heading-2">Company</h2>
+                  <ul class="list-unstyled">
+                    <li><a href="#" class="py-2 d-block">About</a></li>
+                    <li><a href="#" class="py-2 d-block">Jobs</a></li>
+                    <li><a href="#" class="py-2 d-block">Press</a></li>
+                    <li><a href="#" class="py-2 d-block">News</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md">
+                 <div class="ftco-footer-widget mb-4">
+                  <h2 class="ftco-heading-2">Communities</h2>
+                  <ul class="list-unstyled">
+                    <li><a href="#" class="py-2 d-block">Support</a></li>
+                    <li><a href="#" class="py-2 d-block">Sharing is Caring</a></li>
+                    <li><a href="#" class="py-2 d-block">Better Web</a></li>
+                    <li><a href="#" class="py-2 d-block">Good Template</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md">
+                 <div class="ftco-footer-widget mb-4">
+                  <h2 class="ftco-heading-2">Useful links</h2>
+                  <ul class="list-unstyled">
+                    <li><a href="#" class="py-2 d-block">Bootstrap 4</a></li>
+                    <li><a href="#" class="py-2 d-block">jQuery</a></li>
+                    <li><a href="#" class="py-2 d-block">HTML5</a></li>
+                    <li><a href="#" class="py-2 d-block">Sass</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="ftco-footer-widget mb-4">
+              <ul class="ftco-footer-social list-unstyled float-md-right float-lft">
+                <li><a href="#"><span class="icon-twitter"></span></a></li>
+                <li><a href="#"><span class="icon-facebook"></span></a></li>
+                <li><a href="#"><span class="icon-instagram"></span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md text-left">
+            <p>&copy; Exclusivity 2017. All Rights Reserved.  Made with <span class="icon-heart text-danger"></span>  by <a href="https://free-template.co/">Free-Template.co</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- loader -->
+    <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#4586ff"/></svg></div>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script src="js/google-map.js"></script>
+
+    <script src="js/main.js"></script>
+
+    
+  </body>
 </html>
